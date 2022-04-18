@@ -7,7 +7,7 @@ library(ggrepel)
 ## DEG were determined using nSolver v4.0  default settings
 # Raw and normalized data found in GSE200985
 
-res1 <- read.csv("/Volumes/oberstlab/Lab member folders/AmesJosh/ADAR1 project/Revision/for cutoff C8-MLKL siADAR1 MEFs_siADAR vs siNT2.csv", header = T, sep = ",")
+res1 <- read.csv(".../Data1.csv", header = T, sep = ",")
 head(res1)
 rownames(res1) <- res1[,1]
 res1 <- subset(res1, select = -X)
@@ -47,7 +47,7 @@ pheatmap(norm_sig1, color = heat.colors, cluster_cols = F, cluster_rows = T, sho
 ## DEG were determined using nSolver v4.0  default settings
 # Raw and normalized data found in GSE200985
 
-res2 <- read.csv("/Volumes/oberstlab/Lab member folders/AmesJosh/ADAR1 project/Revision/New siADAR Volcano.csv", header = T, sep = ",")
+res2 <- read.csv(".../Data2.csv", header = T, sep = ",")
 rownames(res2) <- res2[,1]
 res2 <- subset(res2, select = -X)
 
@@ -94,7 +94,7 @@ p1 + theme_minimal()
 ## DEG were determined using nSolver v4.0  default settings
 # Raw and normalized data found in GSE200986
 
-res3 <- read.csv("/Volumes/oberstlab/Lab member folders/AmesJosh/ADAR1 project/Revision/2_17_2022/2 17 2022 Nanostring results/Mock comparisons/Mock ZBP1ko vs WT.csv", header = T, sep = ",")
+res3 <- read.csv(".../Data3.csv", header = T, sep = ",")
 head(res3)
 rownames(res3) <- res3[,1]
 res3 <- subset(res3, select = -X)
@@ -105,7 +105,7 @@ head(res3)
 padj.cutoff <- 0.05
 lfc.cutoff <- 0.58
 
-#threshold for siNT vs siADAR DKO           padj.cutoff & abs(res3$log2FoldChange) >
+#threshold for siNT vs siADAR DKO 
 threshold3 <- res3$padj <  lfc.cutoff
 length(which(threshold3))
 

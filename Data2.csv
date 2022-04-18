@@ -1,0 +1,112 @@
+,Log2 fold change,std error (log2),Lower confidence limit (log2),Upper confidence limit (log2),Linear fold change,Lower confidence limit (linear),Upper confidence limit (linear),P-value,BY.p.value,method,Gene.sets,probe.ID
+Areg,0.155,0.114,-0.0686,0.378,1.11,0.954,1.3,0.246,1,loglinear,,NM_009704.3:698
+Atf2,-0.0187,0.0686,-0.153,0.116,0.987,0.899,1.08,0.799,1,loglinear,Interleukin-17 signaling,NM_001025093.1:3995
+Bcl2l1,-0.202,0.0754,-0.349,-0.0538,0.87,0.785,0.963,0.0556,0.429,loglinear,Apoptosis,NM_009743.4:200
+Birc2,0.34,0.133,0.0793,0.601,1.27,1.06,1.52,0.0629,0.468,loglinear,"Apoptosis, NF-kB pathway",NM_007465.2:1230
+C1ra,-2,0.476,-2.93,-1.07,0.25,0.131,0.477,0.0137,0.162,lm.nb,Complement cascade,NM_023143.3:64
+C1s,-0.906,0.222,-1.34,-0.471,0.534,0.395,0.721,0.0151,0.167,loglinear,,NM_144938.2:2490
+Ccl2,1.4,0.157,1.09,1.71,2.64,2.14,3.27,0.000864,0.039,lm.nb,,NM_011333.3:415
+Ccl20,1.65,0.15,1.36,1.94,3.14,2.56,3.85,0.000386,0.0252,loglinear,Chemokine receptors bind chemokines,NM_016960.1:120
+Ccl5,0.153,0.159,-0.158,0.464,1.11,0.896,1.38,0.39,1,lm.nb,Chemokine receptors bind chemokines,NM_013653.1:165
+Ccl7,1.09,0.277,0.55,1.64,2.13,1.46,3.11,0.0169,0.181,lm.nb,,NM_013654.2:215
+Cd55,0.015,0.214,-0.404,0.434,1.01,0.756,1.35,0.948,1,lm.nb,Complement cascade,NM_010016.2:1058
+Cdc42,-0.0476,0.0192,-0.0852,-0.01,0.968,0.943,0.993,0.0681,0.5,loglinear,"Costimulation by the CD28 family, Signaling by VEGF",NM_009861.1:205
+Cebpb,-0.575,0.134,-0.838,-0.313,0.671,0.56,0.805,0.0127,0.16,loglinear,Cellular responses to stress,NM_009883.3:1147
+Cfl1,0.0616,0.0419,-0.0205,0.144,1.04,0.986,1.1,0.215,1,loglinear,,NM_007687.5:978
+Csf1,-0.125,0.0193,-0.163,-0.0873,0.917,0.893,0.941,0.0029,0.0683,loglinear,,NM_001113530.1:833
+Cxcl1,-1.04,0.128,-1.29,-0.791,0.486,0.408,0.578,0.00124,0.0491,loglinear,Chemokine receptors bind chemokines,NM_008176.1:560
+Cxcl10,0.0555,0.147,-0.233,0.344,1.04,0.851,1.27,0.725,1,lm.nb,Chemokine receptors bind chemokines,NM_021274.1:115
+Cxcl3,3,0.068,2.87,3.13,8,7.3,8.78,1.57E-06,0.000925,loglinear,Chemokine receptors bind chemokines,NM_203320.2:275
+Cxcl5,0.198,0.16,-0.115,0.511,1.15,0.923,1.43,0.283,1,loglinear,Chemokine receptors bind chemokines,NM_009141.2:565
+Daxx,-0.895,0.11,-1.11,-0.679,0.538,0.463,0.625,0.00125,0.0491,loglinear,,NM_007829.3:1215
+Ddit3,-0.597,0.12,-0.832,-0.363,0.661,0.562,0.777,0.0075,0.119,loglinear,,NM_007837.3:255
+Fos,-0.893,0.17,-1.23,-0.56,0.538,0.427,0.678,0.00626,0.108,loglinear,"Cellular responses to stress, Fc epsilon receptor (FCERI) signaling, Interleukin-17 signaling",NM_010234.2:1330
+Gnaq,-0.145,0.0304,-0.205,-0.0859,0.904,0.868,0.942,0.00873,0.131,loglinear,"Metabolism, Platelet homeostasis",NM_008139.5:3080
+Gnas,-0.0259,0.0245,-0.0739,0.022,0.982,0.95,1.02,0.349,1,loglinear,"Metabolism, Platelet homeostasis",NM_010309.3:2592
+Gnb1,0.0562,0.03,-0.00251,0.115,1.04,0.998,1.08,0.134,0.925,loglinear,"Metabolism, Platelet homeostasis",NM_008142.3:311
+Grb2,0.0698,0.103,-0.131,0.271,1.05,0.913,1.21,0.534,1,loglinear,"Costimulation by the CD28 family, Fc epsilon receptor (FCERI) signaling, Interleukin-2 family signaling, Signaling by FGFR1, Signaling by FGFR2, Signaling by FGFR3, Signaling by FGFR4",NM_008163.3:1783
+Hdac4,-0.628,0.149,-0.919,-0.337,0.647,0.529,0.792,0.0134,0.162,lm.nb,,NM_207225.1:2800
+Hif1a,-0.237,0.0712,-0.377,-0.0978,0.848,0.77,0.934,0.029,0.254,loglinear,Cellular responses to stress,NM_010431.2:1294
+Hmgb1,-0.0408,0.0522,-0.143,0.0615,0.972,0.906,1.04,0.478,1,loglinear,"Apoptosis, Interleukin-1 family signaling, Regulation of TLR by endogenous ligand",NM_010439.3:1574
+Hmgb2,0.19,0.068,0.0563,0.323,1.14,1.04,1.25,0.0494,0.392,loglinear,Apoptosis,NM_008252.3:1667
+Hmgn1,-0.182,0.0306,-0.242,-0.122,0.881,0.845,0.919,0.00397,0.0804,loglinear,,NM_008251.3:835
+Hspb1,1.2,0.0501,1.1,1.3,2.29,2.14,2.46,1.82E-05,0.00355,loglinear,Signaling by VEGF,NM_013560.2:630
+Ifi27l2a,-0.973,0.208,-1.38,-0.566,0.51,0.384,0.676,0.00941,0.135,lm.nb,,NM_029803.1:270
+Ifi44,-1.44,0.196,-1.82,-1.06,0.369,0.282,0.481,0.00183,0.0554,lm.nb,,NM_133871.2:990
+Ifit1,-1.18,0.123,-1.42,-0.942,0.441,0.373,0.521,0.000647,0.0344,lm.nb,,NM_008331.2:890
+Ifit2,-0.907,0.139,-1.18,-0.634,0.533,0.441,0.644,0.00287,0.0683,loglinear,,NM_008332.2:230
+Ifit3,-1.89,0.146,-2.18,-1.6,0.27,0.221,0.329,0.000203,0.0199,lm.nb,,NM_010501.1:1290
+Iigp1,-1.67,0.158,-1.98,-1.36,0.313,0.253,0.388,0.00045,0.0264,lm.nb,,NM_021792.3:2335
+Il10rb,0.172,0.114,-0.0525,0.396,1.13,0.964,1.32,0.208,1,loglinear,Interleukin-20 family signaling,NM_008349.5:465
+Il1r1,-0.706,0.0748,-0.852,-0.559,0.613,0.554,0.679,0.000703,0.0344,loglinear,Interleukin-1 family signaling,NM_001123382.1:820
+Il1rap,-0.263,0.0648,-0.391,-0.136,0.833,0.763,0.91,0.0153,0.167,loglinear,Interleukin-1 family signaling,NM_008364.2:2415
+Irf1,-0.402,0.113,-0.624,-0.179,0.757,0.649,0.883,0.024,0.238,loglinear,,NM_008390.1:365
+Irf7,-1,0.156,-1.31,-0.696,0.499,0.404,0.617,0.00302,0.0683,lm.nb,,NM_016850.2:705
+Jun,-0.208,0.0592,-0.324,-0.0923,0.866,0.799,0.938,0.0245,0.238,loglinear,"Cellular responses to stress, Fc epsilon receptor (FCERI) signaling, Interleukin-17 signaling",NM_010591.2:2212
+Keap1,-0.375,0.112,-0.595,-0.156,0.771,0.662,0.898,0.0286,0.254,loglinear,,NM_016679.4:4140
+Limk1,-0.308,0.0866,-0.478,-0.138,0.808,0.718,0.909,0.0237,0.238,loglinear,,NM_010717.2:1583
+Ly96,-0.253,0.163,-0.572,0.0663,0.839,0.672,1.05,0.195,1,loglinear,"Apoptosis, Regulation of TLR by endogenous ligand",NM_016923.1:368
+Maff,-0.0853,0.136,-0.352,0.181,0.943,0.784,1.13,0.564,1,loglinear,,NM_010755.3:743
+Mafg,-0.167,0.143,-0.448,0.114,0.891,0.733,1.08,0.308,1,loglinear,,XM_001002362.1:516
+Mafk,-0.509,0.0984,-0.702,-0.316,0.703,0.615,0.803,0.00663,0.108,loglinear,,NM_010757.2:1065
+Map2k1,-0.185,0.058,-0.299,-0.0715,0.88,0.813,0.952,0.0331,0.286,loglinear,,NM_008927.3:1695
+Map2k4,0.157,0.138,-0.114,0.428,1.11,0.924,1.35,0.32,1,lm.nb,"Cellular responses to stress, Fc epsilon receptor (FCERI) signaling, Interleukin-17 signaling",NM_009157.4:1335
+Map3k1,-0.954,0.212,-1.37,-0.538,0.516,0.387,0.689,0.0109,0.153,lm.nb,Fc epsilon receptor (FCERI) signaling,NM_011945.2:1640
+Map3k7,-0.17,0.0815,-0.33,-0.0107,0.889,0.795,0.993,0.105,0.75,loglinear,"C-type lectin receptors, Fc epsilon receptor (FCERI) signaling, Interleukin-1 family signaling, Interleukin-17 signaling",NM_172688.2:2405
+Mapk1,-0.666,0.195,-1.05,-0.283,0.63,0.483,0.822,0.027,0.252,lm.nb,"Cellular responses to stress, Fc epsilon receptor (FCERI) signaling, Interleukin-17 signaling, Signaling by FGFR1, Signaling by FGFR2, Signaling by FGFR3, Signaling by FGFR4",NM_001038663.1:1490
+Mapk14,-0.21,0.0677,-0.342,-0.077,0.865,0.789,0.948,0.0363,0.3,loglinear,"Cellular responses to stress, Interleukin-17 signaling, Platelet homeostasis, Signaling by VEGF",NM_011951.2:1420
+Mapk3,-0.0514,0.0371,-0.124,0.0213,0.965,0.918,1.01,0.238,1,loglinear,"Cellular responses to stress, Fc epsilon receptor (FCERI) signaling, Interferon Signaling, Interleukin-17 signaling, Signaling by FGFR1, Signaling by FGFR2, Signaling by FGFR3, Signaling by FGFR4",NM_011952.2:825
+Mapk8,-0.193,0.0609,-0.312,-0.0734,0.875,0.805,0.95,0.034,0.286,loglinear,"Apoptosis, Cellular responses to stress, Fc epsilon receptor (FCERI) signaling, Interleukin-1 family signaling, Interleukin-17 signaling",NM_016700.3:970
+Mapkapk2,-0.357,0.113,-0.577,-0.136,0.781,0.67,0.91,0.0339,0.286,loglinear,"Cellular responses to stress, Interleukin-17 signaling, Metabolism, Signaling by VEGF",NM_008551.1:1991
+Masp1,-0.211,0.0294,-0.269,-0.154,0.864,0.83,0.899,0.00198,0.0554,loglinear,Complement cascade,NM_008555.2:210
+Max,-0.164,0.0481,-0.258,-0.0699,0.892,0.836,0.953,0.027,0.252,loglinear,,NM_008558.1:120
+Mef2a,-0.949,0.228,-1.4,-0.503,0.518,0.38,0.706,0.0141,0.162,loglinear,,XM_976032.1:174
+Mef2c_Mm,-0.669,0.654,-1.95,0.613,0.629,0.258,1.53,0.364,1,lm.nb,,NM_025282.2:1155
+Mef2d,-0.201,0.171,-0.535,0.134,0.87,0.69,1.1,0.305,1,lm.nb,,NM_133665.3:1890
+Mknk1,-0.3,0.107,-0.51,-0.0903,0.812,0.702,0.939,0.0487,0.392,loglinear,"Signaling by FGFR1, Signaling by FGFR2, Signaling by FGFR3, Signaling by FGFR4",NM_021461.4:635
+Mmp3,2.86,0.201,2.46,3.25,7.25,5.52,9.53,0.000142,0.0167,lm.nb,Extracellular matrix organization,NM_010809.1:1575
+Mx1,-2.17,0.196,-2.55,-1.79,0.222,0.17,0.29,0.000376,0.0252,lm.nb,,NM_010846.1:2485
+Mx2,-1.36,0.224,-1.8,-0.924,0.389,0.287,0.527,0.00368,0.0789,lm.nb,Interferon Signaling,NM_013606.1:2095
+Myc,-0.381,0.073,-0.525,-0.238,0.768,0.695,0.848,0.00641,0.108,loglinear,,NM_010849.4:630
+Myd88,-0.343,0.0706,-0.481,-0.205,0.788,0.716,0.868,0.00827,0.128,loglinear,Interleukin-1 family signaling,NM_010851.2:1595
+Nfatc3,-0.153,0.1,-0.35,0.0431,0.899,0.785,1.03,0.201,1,loglinear,"C-type lectin receptors, Fc epsilon receptor (FCERI) signaling",NM_010901.2:2260
+Nfe2l2,-0.183,0.0545,-0.29,-0.0762,0.881,0.818,0.949,0.0284,0.254,loglinear,,NM_010902.3:1665
+Nfkb1,0.362,0.0765,0.212,0.512,1.29,1.16,1.43,0.00908,0.133,loglinear,"C-type lectin receptors, Fc epsilon receptor (FCERI) signaling, Interleukin-1 family signaling, Interleukin-17 signaling",NM_008689.2:2125
+Nod1,0.331,0.21,-0.0812,0.743,1.26,0.945,1.67,0.191,1,loglinear,"Interleukin-1 family signaling, Interleukin-17 signaling",NM_172729.2:1446
+Nr3c1,-0.48,0.0907,-0.658,-0.302,0.717,0.634,0.811,0.00612,0.108,loglinear,Cellular responses to stress,NM_008173.3:1800
+Oas1a,-0.878,0.136,-1.15,-0.612,0.544,0.452,0.654,0.00297,0.0683,loglinear,,NM_145211.2:471
+Oas2,-2.15,0.497,-3.12,-1.17,0.226,0.115,0.444,0.0125,0.16,lm.nb,,NM_145227.2:3438
+Oasl1,-1.03,0.248,-1.52,-0.547,0.489,0.349,0.684,0.014,0.162,lm.nb,,NM_145209.2:1165
+Pdgfa,0.325,0.122,0.0856,0.563,1.25,1.06,1.48,0.0563,0.429,loglinear,Extracellular matrix organization,NM_008808.3:805
+Pla2g4a,0.468,0.114,0.245,0.692,1.38,1.19,1.62,0.0147,0.166,loglinear,"Metabolism, Platelet homeostasis",NM_008869.2:1525
+Plcb1,-3.28,1.66,-6.54,-0.0217,0.103,0.0107,0.985,0.12,0.837,loglinear,Metabolism,NM_019677.1:495
+Prkca,-0.574,0.164,-0.895,-0.254,0.672,0.538,0.839,0.0247,0.238,loglinear,"Extracellular matrix organization, Metabolism, Signaling by VEGF",NM_011101.3:6965
+Ptgs1,2.93,0.102,2.73,3.13,7.63,6.64,8.77,8.77E-06,0.00257,loglinear,Metabolism,NM_008969.3:1642
+Ptgs2,0.889,0.0597,0.772,1.01,1.85,1.71,2.01,0.000118,0.0167,loglinear,Metabolism,NM_011198.3:675
+Ptk2,-0.286,0.0737,-0.431,-0.142,0.82,0.742,0.906,0.0178,0.186,loglinear,"Apoptosis, Signaling by VEGF",NM_007982.2:1060
+Rac1,0.122,0.0166,0.0898,0.155,1.09,1.06,1.11,0.0018,0.0554,loglinear,"Costimulation by the CD28 family, Fc epsilon receptor (FCERI) signaling, Signaling by VEGF",NM_009007.2:1045
+Raf1,-0.505,0.0697,-0.641,-0.368,0.705,0.641,0.775,0.00193,0.0554,loglinear,C-type lectin receptors,NM_029780.3:550
+Rapgef2,0.156,0.154,-0.145,0.457,1.11,0.904,1.37,0.368,1,loglinear,,NM_001099624.2:5580
+Rela,0.141,0.0849,-0.0248,0.308,1.1,0.983,1.24,0.171,1,loglinear,"C-type lectin receptors, Fc epsilon receptor (FCERI) signaling, Interleukin-1 family signaling",NM_009045.4:645
+Relb,0.286,0.143,0.00626,0.566,1.22,1,1.48,0.116,0.818,lm.nb,"C-type lectin receptors, NF-kB pathway",NM_009046.2:2013
+Rhoa,-0.191,0.0741,-0.336,-0.0458,0.876,0.792,0.969,0.0615,0.463,loglinear,Signaling by VEGF,NM_016802.4:1885
+Ripk1,-0.43,0.149,-0.722,-0.137,0.742,0.606,0.91,0.0452,0.369,lm.nb,Apoptosis,NM_009068.3:3185
+Ripk2,-0.401,0.0937,-0.585,-0.218,0.757,0.667,0.86,0.0128,0.16,loglinear,"Interleukin-1 family signaling, Interleukin-17 signaling",NM_138952.3:830
+Rock2,-0.0256,0.0758,-0.174,0.123,0.982,0.886,1.09,0.752,1,loglinear,Signaling by VEGF,NM_009072.2:4680
+Rps6ka5,-0.172,0.143,-0.453,0.109,0.888,0.73,1.08,0.296,1,loglinear,"C-type lectin receptors, Interleukin-17 signaling",NM_153587.2:2755
+Shc1,0.0316,0.0431,-0.0529,0.116,1.02,0.964,1.08,0.504,1,loglinear,"Fc epsilon receptor (FCERI) signaling, Interleukin-2 family signaling, Signaling by FGFR1, Signaling by FGFR2, Signaling by FGFR3, Signaling by FGFR4",NM_011368.4:235
+Smad7,-0.329,0.0925,-0.51,-0.148,0.796,0.702,0.903,0.0236,0.238,loglinear,,NM_001042660.1:3557
+Stat1,-0.769,0.144,-1.05,-0.487,0.587,0.483,0.713,0.00587,0.108,lm.nb,"Interferon Signaling, Interleukin-12 family signaling, Interleukin-2 family signaling, Interleukin-20 family signaling, Interleukin-6 family signaling",NM_009283.3:1590
+Stat2,-0.645,0.15,-0.939,-0.351,0.64,0.522,0.784,0.0126,0.16,lm.nb,"Interferon Signaling, Interleukin-20 family signaling",NM_019963.1:1955
+Stat3,-0.453,0.0749,-0.6,-0.306,0.73,0.66,0.809,0.00376,0.0789,loglinear,"Interleukin-1 family signaling, Interleukin-12 family signaling, Interleukin-2 family signaling, Interleukin-20 family signaling, Interleukin-6 family signaling",NM_213659.2:2130
+Tcf4,0.241,0.107,0.0318,0.451,1.18,1.02,1.37,0.087,0.631,loglinear,,NM_013685.1:3045
+Tgfb1,-0.311,0.0537,-0.416,-0.206,0.806,0.749,0.867,0.00441,0.0864,loglinear,Extracellular matrix organization,NM_011577.1:1470
+Tgfb2,-2.08,0.3,-2.67,-1.5,0.236,0.157,0.355,0.00226,0.0602,loglinear,Extracellular matrix organization,NM_009367.1:1685
+Tgfb3,0.6,0.108,0.388,0.811,1.52,1.31,1.75,0.00513,0.0973,loglinear,Extracellular matrix organization,NM_009368.2:2410
+Tgfbr1,-0.117,0.108,-0.328,0.0938,0.922,0.797,1.07,0.338,1,loglinear,,NM_009370.2:4425
+Tlr4,-4.12,0.926,-5.94,-2.31,0.0574,0.0163,0.202,0.0112,0.154,lm.nb,"Apoptosis, Regulation of TLR by endogenous ligand",NM_021297.2:2510
+Tnfaip3,1.43,0.193,1.05,1.81,2.69,2.07,3.5,0.00177,0.0554,lm.nb,,NM_009397.2:232
+Tollip,-0.418,0.0578,-0.531,-0.304,0.749,0.692,0.81,0.00194,0.0554,loglinear,Interleukin-1 family signaling,NM_023764.3:260
+Tradd,-0.692,0.255,-1.19,-0.193,0.619,0.438,0.875,0.0531,0.415,loglinear,Apoptosis,NM_001033161.2:562
+Traf2,-0.304,0.0902,-0.481,-0.127,0.81,0.717,0.916,0.0281,0.254,loglinear,"Apoptosis, NF-kB pathway",NM_009422.2:262
+Twist2,-0.727,0.0632,-0.851,-0.603,0.604,0.555,0.658,0.000326,0.0252,loglinear,,NM_007855.2:1102
