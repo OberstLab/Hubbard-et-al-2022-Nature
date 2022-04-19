@@ -1,13 +1,18 @@
+renv::restore()
+
 library(ggplot2)
 library(RColorBrewer)
 library(pheatmap)
 library(ggrepel)
 
+output_dir <- 'results'
+dir.create(output_dir, recursive=TRUE)
+
 ### Heatmap for siADAR vs niNT Casp8 and MLKL knockout MEF experiment 
 ## DEG were determined using nSolver v4.0  default settings
 # Raw and normalized data found in GSE200985
 
-res1 <- read.csv(".../Data1.csv", header = T, sep = ",")
+res1 <- read.csv("data/Data1.csv", header = T, sep = ",")
 head(res1)
 rownames(res1) <- res1[,1]
 res1 <- subset(res1, select = -X)
@@ -40,14 +45,14 @@ heat.colors <- brewer.pal(11, "PiYG")
 ### Run pheatmap
 pheatmap(norm_sig1, color = heat.colors, cluster_cols = F, cluster_rows = T, show_rownames=T,
          border_color=NA, fontsize = 10, scale="row",
-         fontsize_row = 10, height=20)
-
+         fontsize_row = 10, height=20,
+         filename = paste0(output_dir,'/siADARvsniNT_heatmap.pdf'))
 
 ### Volcano plot for 'Casp8 KO ADAR siRNA vs Casp8 KO NT siRNA'
 ## DEG were determined using nSolver v4.0  default settings
 # Raw and normalized data found in GSE200985
 
-res2 <- read.csv(".../Data2.csv", header = T, sep = ",")
+res2 <- read.csv("data/Data2.csv", header = T, sep = ",")
 rownames(res2) <- res2[,1]
 res2 <- subset(res2, select = -X)
 
@@ -71,6 +76,7 @@ ggplot(res2_df) +
   theme(legend.position = "none",
         plot.title = element_text(size = rel(1.5), hjust = 0.5),
         axis.title = element_text(size = rel(1.25)))  
+ggsave(paste0(output_dir,'/Casp8KOADARsiRNAvsCasp8WTADARsiRNA.pdf'))
 
 res2_df_ordered <- res2_df[order(res2_df$P.value), ] 
 
@@ -89,12 +95,13 @@ p1 <- ggplot(res2_df_ordered) +
         axis.title = element_text(size = rel(1.25))) 
 
 p1 + theme_minimal()
+ggsave(paste0(output_dir,'/Casp8KOADARsiRNAvsCasp8WTADARsiRNA_ordered.pdf'))
 
 ### WT vs ZBP1ko mutant ADAR1 MEF experiment
 ## DEG were determined using nSolver v4.0  default settings
 # Raw and normalized data found in GSE200986
 
-res3 <- read.csv(".../Data3.csv", header = T, sep = ",")
+res3 <- read.csv("data/Data3.csv", header = T, sep = ",")
 head(res3)
 rownames(res3) <- res3[,1]
 res3 <- subset(res3, select = -X)
@@ -125,4 +132,5 @@ norm_sig3 <- sig3_ordered_subset[rownames(sig3),]
 ### Run pheatmap
 pheatmap(norm_sig3, color = heat.colors, cluster_cols = F, cluster_rows = T, show_rownames=T,
          border_color=NA, fontsize = 10, scale="row",
-         fontsize_row = 10, height=20)
+         fontsize_row = 10, height=20,
+         filename = paste0(output_dir,'/WTvsZBP1ko.pdf'))

@@ -1,0 +1,35 @@
+library name	gsm	title	organism	tissue	sex	age (days)	genotype	strain	molecule	single or paired-end	instrument model
+S01	GSM6045510	WT (B6/J) Mouse 1	Mus musculus	Spleen	M	23	WT	B6/J	total RNA	paired-end	Illumina HiSeq 2500
+S02	GSM6045511	WT (B6/J) Mouse 2	Mus musculus	Spleen	M	23	WT	B6/J	total RNA	paired-end	Illumina HiSeq 2500
+S03	GSM6045512	WT (B6/J) Mouse 3	Mus musculus	Spleen	F	23	WT	B6/J	total RNA	paired-end	Illumina HiSeq 2500
+S04	GSM6045513	WT (B6/J) Mouse 4	Mus musculus	Spleen	F	23	WT	B6/J	total RNA	paired-end	Illumina HiSeq 2500
+S05	GSM6045514	P195A/p150- Mouse 1	Mus musculus	Spleen	F	23	P195A/p150-	B6/J	total RNA	paired-end	Illumina HiSeq 2500
+S06	GSM6045515	P195A/p150- Mouse 2	Mus musculus	Spleen	M	23	P195A/p150-	B6/J	total RNA	paired-end	Illumina HiSeq 2500
+S07	GSM6045516	P195A/p150- Mouse 3	Mus musculus	Spleen	M	23	P195A/p150-	B6/J	total RNA	paired-end	Illumina HiSeq 2500
+S08	GSM6045517	P195A/p150- Mouse 4	Mus musculus	Spleen	F	23	P195A/p150-	B6/J	total RNA	paired-end	Illumina HiSeq 2500
+S09	GSM6045518	P195A/p150- PKR-/- Mouse 1	Mus musculus	Spleen	M	23	P195A/p150- PKR-/-	B6/J	total RNA	paired-end	Illumina HiSeq 2500
+S10	GSM6045519	P195A/p150- PKR-/- Mouse 2	Mus musculus	Spleen	M	23	P195A/p150- PKR-/-	B6/J	total RNA	paired-end	Illumina HiSeq 2500
+S11	GSM6045520	P195A/p150- PKR-/- Mouse 3	Mus musculus	Spleen	M	23	P195A/p150- PKR-/-	B6/J	total RNA	paired-end	Illumina HiSeq 2500
+S12	GSM6045521	P195A/p150- PKR-/- Mouse 4	Mus musculus	Spleen	M	23	P195A/p150- PKR-/-	B6/J	total RNA	paired-end	Illumina HiSeq 2500
+S13	GSM6045522	ZBP1-/-::ADARp150/P195A Mouse 1	Mus musculus	Spleen	F	23	ZBP1-/-::ADARp150/P195A	B6/J	total RNA	paired-end	Illumina HiSeq 2500
+S14	GSM6045523	ZBP1-/-::ADARp150/P195A Mouse 2	Mus musculus	Spleen	M	23	ZBP1-/-::ADARp150/P195A	B6/J	total RNA	paired-end	Illumina HiSeq 2500
+S15	GSM6045524	ZBP1-/-::ADARp150/P195A Mouse 3	Mus musculus	Spleen	M	23	ZBP1-/-::ADARp150/P195A	B6/J	total RNA	paired-end	Illumina HiSeq 2500
+S16	GSM6045525	ZBP1-/-::ADARp150/P195A Mouse 4	Mus musculus	Spleen	M	23	ZBP1-/-::ADARp150/P195A	B6/J	total RNA	paired-end	Illumina HiSeq 2500
+S17	GSM6045526	ZBP1-/-::ADARp150/P195A Mouse 5	Mus musculus	Spleen	F	23	ZBP1-/-::ADARp150/P195A	B6/J	total RNA	paired-end	Illumina HiSeq 2500
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
