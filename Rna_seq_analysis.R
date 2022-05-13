@@ -51,41 +51,13 @@ metadata =  metadata[sort(rownames(metadata)),]
 h5_files = paste0(h5_folder,'/',sra_metadata$gsm,'_',rownames(sra_metadata),'_L001_001.abundance.h5') %>% 
 	set_names(rownames(sra_metadata))
 
-# NOTE: This gets around the fact that tximport checks the file is called abundance.h5 not the extension of the file given
-# TAKEN FROM: https://github.com/mikelove/tximport/blob/master/R/helper.R
-
-# code contributed from Andrew Morgan
-read_kallisto_h5 <- function(fpath, ...) {
-	if (!requireNamespace("rhdf5", quietly=TRUE)) {
-		stop("reading kallisto results from hdf5 files requires Bioconductor package `rhdf5`")
-	}
-	counts <- rhdf5::h5read(fpath, "est_counts")
-	ids <- rhdf5::h5read(fpath, "aux/ids")
-	efflens <- rhdf5::h5read(fpath, "aux/eff_lengths")
-	
-	# as suggested by https://support.bioconductor.org/p/96958/#101090
-	ids <- as.character(ids)
-	
-	stopifnot(length(counts) == length(ids)) 
-	stopifnot(length(efflens) == length(ids))
-	
-	result <- data.frame(target_id = ids,
-						 eff_length = efflens,
-						 est_counts = counts,
-						 stringsAsFactors = FALSE)
-	normfac <- with(result, (1e6)/sum(est_counts/eff_length))
-	result$tpm <- with(result, normfac*(est_counts/eff_length))
-	return(result)
-}
-
-kallisto_data_prelim = tximport(h5_files, type='kallisto', txOut=TRUE, importer=read_kallisto_h5 )
 ensembl = biomaRt::useEnsembl(biomart="ensembl", dataset="mmusculus_gene_ensembl")
-ensembl_conversions = biomaRt::getBM( filters='ensembl_transcript_id_version'
-                                    , attributes=c('ensembl_transcript_id_version','ensembl_gene_id','ensembl_gene_id_version','external_gene_name','entrezgene_id')
-                                    , values=kallisto_data_prelim$counts %>% rownames()
-                                    , mart=ensembl)
+ensembl_conversions = biomaRt::getBM( attributes=c('ensembl_transcript_id_version','ensembl_gene_id','ensembl_gene_id_version','external_gene_name','entrezgene_id')
+                                    , mart=ensembl )
 tx2gene = ensembl_conversions %>% select(ensembl_transcript_id_version, ensembl_gene_id_version)
-kallisto_data = tximport(h5_files, type='kallisto', tx2gene=tx2gene, importer=read_kallisto_h5)
+# NOTE: tximport:::read_kallisto_h5, is to get around the fact that tximport checks the file is called abundance.h5 not the extension of the file given
+# TAKEN FROM: https://github.com/mikelove/tximport/blob/master/R/helper.R
+kallisto_data = tximport(h5_files, type='kallisto', tx2gene=tx2gene, importer=tximport:::read_kallisto_h5)
 
 print('Running standard DESeq2 pipeline')
 # Run DESeq2
